@@ -1,0 +1,167 @@
+.hompage-shope-coach.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .hompage-shope-coach .carousel-item img {
+    filter: brightness(50%);
+    height: 100vh;
+   
+  }
+  .hompage-shope-coach.carousel-item h5{
+  color: #FFDD00;
+  margin-bottom: 300px;
+  font-weight: bold; 
+  font-size: 70px;
+  
+  
+  }
+
+  :root{
+    --body_background:#222222;
+
+--body_color:white
+  }
+ [data-theme="dark"] {
+  --body_background: #ffffff
+
+}
+  
+                       /* header end  */
+  body{
+    background-color: var(--body_background)
+  }
+                       /* <-----------------shop and coach  section start --------------> */
+                       .hompage-shope-coach .our-shop{
+    display: flex;
+    justify-content: center;
+    color: rgb(235, 235, 235);
+    
+  }
+  .hompage-shope-coach  .our-shop h2
+  {
+   font-size: 29.75px;
+   margin-top:1rem;
+   font-weight: 600;
+  }
+  .hompage-shope-coach .centered-dotted-line {
+    width: 1300px;
+    height: 1px; /* set the height of the line */
+    margin: 0 auto; /* center the line horizontally */
+    border: 1px dotted #FFDD00;
+  }
+  .hompage-shope-coach .container1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .hompage-shope-coach  .container1 {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .hompage-shope-coach  .container1 {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .hompage-shope-coach    .container1 {
+      width: 1170px;
+    }
+  }
+  .hompage-shope-coach  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-content: center; 
+    height: 70vh;
+  }
+  
+  .hompage-shope-coach .card {
+    width: 250px;
+    height: 400px;
+    background-color: #222222;
+    text-align: start;
+    border: none;
+  }
+  
+  .hompage-shope-coach  .card .img1 {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hompage-shope-coach  .clothing-name {
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .hompage-shope-coach .clothing-price {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+  }
+  .hompage-shope-coach  .button{
+    display: flex;
+    justify-content: center;
+  }
+  .hompage-shope-coach  .card .reviews{
+    color: white;
+  }
+
+  .hompage-shope-coach  .button-5 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #FFDD00;
+    font-weight:bold;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    height:50px ;
+  }
+  
+  .hompage-shope-coach  .button-5:hover,
+  .hompage-shope-coach   .button-5:focus {
+    background-color: #fffb00;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .hompage-shope-coach  .button-5:hover {
+    transform: translateY(-1px);
+  }
+  
+  .hompage-shope-coach  .button-5:active {
+    background-color: #222222;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }

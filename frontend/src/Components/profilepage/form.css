@@ -1,0 +1,51 @@
+.formcoach {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ /* Set background color to white */
+  }
+  
+  .form-container {
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    border: 1px solid black;
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px; 
+  }
+  
+  .form-label {
+    color: black; /* Set label text color to black */
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control {
+    color: black; /* Set input text color to black */
+  }
+  
+  .form-heading {
+    color: black; /* Set heading text color to black */
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .custom-button {
+    background-color: #ffdd00;
+    color: #000000;
+  }
+  
+  /* Add hover style for custom button */
+  .custom-button:hover {
+    background-color: #ffdd10;
+  }
+  
+  /* Add focus style for form inputs */
+  .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+  }
+  .form-control-details {
+    color: black;
+    height: 120px; /* Increase the height as desired */
+  }

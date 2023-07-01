@@ -1,0 +1,173 @@
+
+     
+     
+
+
+
+
+
+
+
+
+      .prpage .containerdd {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      
+      .prpage .image {
+        background-image: url("../../../image/PR/what-are-prs-in-gym\ 1.png");
+         height: 400px;
+        background-size: cover;
+        width: 100%;
+      }
+      
+      .prpage .content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  text-align: left; /* Align text to the left */
+
+  height: 400px;
+  background-color: #FFDD00;
+}
+      
+.prpage .content #abouut{
+        font-size: 23px;
+        font-weight: 700;
+        color: #000000;
+        letter-spacing: 1px; 
+      }
+
+      .prpage.content #abouuth1 {
+        margin-top: 20px;
+        font-weight: bold;
+        color: #000000;
+
+      }
+
+      .prpage .container {
+        display: flex;
+        justify-content: space-between;
+        margin-top:70px;
+      }
+      
+      .prpage .itemm {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .prpage .itemm img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      
+      .prpage .itemm .contents {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+      }
+      
+      .prpage .itemm h3,
+      .prpage .itemm p {
+        margin: 10px 0;
+         
+      }
+      
+      .prpage .itemm button {
+        padding: 10px 0;
+        width: 50%;
+        font-size: 14px;
+        background-color: #FFDD00;
+        border: none;
+        color: #000000;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-weight: bold;
+        margin: 0 auto; 
+      }
+
+
+
+
+
+
+
+      
+      .prpage .itemm button:hover {
+        background-color: #FFCC00;
+      } 
+
+      #item44{
+
+        margin-top: 25px;
+      }
+      .prpage .itemm span{
+        color: #FFDD00;
+      }
+
+      .prpage .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px; /* Add desired margin value */
+       
+      }
+      
+      .prpage .centered-button {
+        /* Add your button styles here */
+        padding: 15px 40px;
+        background-color: #FFDD00;
+        color: #000000;
+        font-weight: bold;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+     
+      }
+      
+      .prpage .text-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px; /* Add desired margin-top value */
+      
+
+        
+      }
+      
+      .prpage .centered-text {
+        text-align: center;
+        
+        font-size: 22px;
+        color: rgb(194, 189, 189);
+      }
+      
+      .prpage .blue-text {
+        color: #FFDD00;
+      }
+      
+      .prpage .prsub {
+        display: flex;
+        margin-left: 7px; 
+        margin-top: 50px; /* Add desired margin-top value */
+      }
+      
+      .prpage .submitt {
+        text-align: left;
+        font-size: 40px; 
+        font-weight: bold;
+        color: #FFDD00;
+        margin-left: 15px; 
+        
+      }
+      
+      .prpage .ya-text {
+        color: #FFDD00;
+      }
+      

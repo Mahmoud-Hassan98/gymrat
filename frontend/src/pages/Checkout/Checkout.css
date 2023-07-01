@@ -1,0 +1,609 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Black: #000000;
+    --Dark: #262626;
+    --White: #ffffff;
+    --Gold: #FED700;
+    --Gray: gray;
+    --Gray2: #eeeeee;
+}
+
+.Checkoutgymrat a {
+    text-decoration: none;
+}
+
+  
+.Checkoutgymrat button:active {
+    transform: scale(0.99);
+}
+
+.Checkoutgymrat .container .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-height: 100vh;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-image,
+.Checkoutgymrat .container .wrapper .checkout-text {
+    width: 50%;
+    min-height: 100vh;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -- Checkout Image -- */
+
+.Checkoutgymrat .container .wrapper .checkout-image {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-image .info h2 {
+    color: var(--Dark);
+    font-style: italic;
+}
+
+.Checkoutgymrat.container .wrapper .checkout-image .info h4 {
+    color: var(--Gray);
+    font-weight: initial;
+    margin: 0;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-image .info h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-image .info p {
+    color: var(--Gray);
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-image .info p span {
+    margin-right: 5px;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-image .footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-image .footer p {
+    color: var(--Gray);
+    font-size: 15px;
+    font-weight: 300;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-image .footer p span {
+    margin-right: 5px;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-image .footer select {
+    padding: 5px 10px;
+    color: var(--Gray);
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-image .footer select option {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+
+/* -- Checkout Text -- */
+
+
+.Checkoutgymrat .container .wrapper .checkout-text {
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: -40px 0px 50px 0px #fafafa;
+
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .back-to-home {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .back-to-home a:first-child {
+    color: var(--Gray);
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .back-to-home a:last-child {
+    color: var(--Dark);
+    font-weight: 600;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .back-to-home img {
+    margin: 0 5px;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .pay-button {
+    width: 100%;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .pay-button button {
+    width: 100%;
+    padding: 8px 10px;
+    background-color: var(--Black);
+    border: 2px solid var(--Black);
+    outline: none;
+    color: var(--White);
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .pay-button button img {
+    margin: 0 5px;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .or-line {
+    background-color: var(--Gray2);
+    width: 100%;
+    height: 1px;
+    position: relative;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .or-line p {
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-size: 15px;
+    color: var(--Gray);
+    background-color: var(--White);
+    max-width: max-content;
+    width: 100%;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details {
+    width: 100%;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text label {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--Black);
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details input {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    outline: none;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-number,
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-info  {
+    border: 2px solid var(--Gray2);
+    border-radius: 8px;
+    margin: 5px 0;
+    display: flex;
+    padding: 5px 15px;
+    margin-bottom: 0;
+}
+
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-number {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-number input {
+    border: none;
+    padding: 0;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-number div {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-info {
+    margin: 0;
+    padding: 0 auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-info .mm-yy,
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-info .cvc {
+    width: 50%;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-info .cvc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-info input {
+    margin: 0;
+    padding: 10px 0;
+    border: none;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .card-details .card-info .cvc input {
+    border-left: 2px solid var(--Gray2);
+    padding: 0 10px;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .owner-name,
+.Checkoutgymrat .container .wrapper .checkout-text .country-region {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .owner-name input {
+    outline: none;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: 2px solid var(--Gray2);
+    border-radius: 8px;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .country-region select,
+.Checkoutgymrat .container .wrapper .checkout-text .country-region input {
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .country-region select {
+    margin-top: 10px;
+    border: 2px solid var(--Gray2);
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--Dark);
+    background-color: transparent;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .country-region input {
+    border: 2px solid var(--Gray2);
+    border-radius: 8px;
+    padding: 12px 15px;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.Checkoutgymrat .container .wrapper .checkout-text .buy-button {
+    width: 100%;
+    padding: 8px 10px;
+    background-color: var(--Gold);
+    border: 2px solid var(--Gold);
+    outline: none;
+    color: var(--Dark);
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Disable Arrows : Input type number */
+.Checkoutgymrat input::-webkit-outer-spin-button,
+.Checkoutgymrat input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.Checkoutgymrat .container h5 {
+    text-align: center;
+    padding: 0 20px;
+    font-weight: initial;
+    color: var(--Gray);
+    margin-bottom: 40px;
+}
+
+.Checkoutgymrat .container h5 b {
+    color: var(--Dark);
+}
+
+.Checkoutgymrat .container h5 a {
+    font-weight: bold;
+    color: #34a9ff;
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1100px) {
+    .Checkoutgymrat .container .wrapper .checkout-image,
+    .Checkoutgymrat .container .wrapper .checkout-text {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .Checkoutgymrat .container .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        height: unset;
+        flex: 100%;
+        min-height: 100%;
+        height: unset;
+    }
+
+    .Checkoutgymrat.container .wrapper .checkout-image,
+    .Checkoutgymrat .container .wrapper .checkout-text {
+        width: 80%;
+        height: unset;
+        justify-content: center;
+        display: block;
+        min-height: 100%;
+        padding: 40px 0;
+    }
+
+    .Checkoutgymrat.container .wrapper .checkout-text {
+        box-shadow: none;
+    }
+
+    .Checkoutgymrat.container .wrapper .checkout-text .pay-button,
+    .Checkoutgymrat.container .wrapper .checkout-text .card-details,
+    .Checkoutgymrat.container .wrapper .checkout-text .owner-name,
+    .Checkoutgymrat.container .wrapper .checkout-text .country-region {
+        margin: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Checkoutgymrat  .container .wrapper .checkout-image,
+    .Checkoutgymrat .container .wrapper .checkout-text {
+        width: 90%;
+    }
+
+    .Checkoutgymrat.container .wrapper .checkout-image .product-img     {
+        width: 80%;
+        height: unset;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Checkoutgymrat .container .wrapper .checkout-image,
+    .Checkoutgymrat.container .wrapper .checkout-text {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+
+    .Checkoutgymrat .container .wrapper .checkout-image {
+        text-align: center;
+    }
+
+    .Checkoutgymrat.container .wrapper .checkout-image .info p,
+    .Checkoutgymrat.container .wrapper .checkout-image .footer {
+        justify-content: center;
+    }
+
+    .Checkoutgymrat.container .wrapper .checkout-image .product-img     {
+        width: 90%;
+        height: unset;
+    }
+}
+
+.Checkoutgymrat {
+    
+    background-color: rgb(255, 255, 255);
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+   
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #222222;
+    font-family: 'Roboto', sans-serif;
+  }
+  .Checkoutgymrat .shopping-cart {
+    width:600px;
+    height: 690px;
+    margin: 80px auto;
+    background: #FFFFFF;
+    
+    
+   
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Checkoutgymrat .title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color: #5E6977;
+    font-size: 18px;
+    font-weight: 400;
+  }
+   
+  .Checkoutgymrat .item {
+    padding: 20px 30px;
+    height: 120px;
+    
+    display: flex;
+  }
+   
+  .Checkoutgymrat .item:nth-child(3) {
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+  }
+  .Checkoutgymrat .buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+  }
+  .Checkoutgymrat  .delete-btn
+ {
+    display: inline-block;
+    Cursor: pointer;
+  }
+  .Checkoutgymrat  .delete-btn {
+    width: 18px;
+    height: 17px;
+    background: url(&amp;quot;delete-icn.svg&amp;quot;) no-repeat center;
+  }
+   
+
+
+  .Checkoutgymrat  .is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+  }
+   
+  @keyframes animate {
+    0%   { background-position: left;  }
+    50%  { background-position: right; }
+    100% { background-position: right; }
+  }
+
+
+  .Checkoutgymrat .image {
+  margin-right: 50px;
+}
+ 
+.Checkoutgymrat .description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+}
+ 
+.Checkoutgymrat .description span {
+  display: block;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 400;
+}
+ 
+.Checkoutgymrat .description span:first-child {
+  margin-bottom: 5px;
+}
+.Checkoutgymrat .description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+
+.Checkoutgymrat .quantity {
+    padding-top: 20px;
+    margin-right: 60px;
+  }
+  .Checkoutgymrat .quantity input {
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+  }
+   
+  .Checkoutgymrat button[class*=btn] {
+    width: 30px;
+    height: 30px;
+    background-color: #ffdd00;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  .Checkoutgymrat .minus-btn img {
+    margin-bottom: 3px;
+  }
+  .Checkoutgymrat .plus-btn img {
+    margin-top: 2px;
+  }
+   
+  .Checkoutgymrat  button:focus,
+  input:focus {
+    outline:0;
+  }
+  .Checkoutgymrat .total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+  }
+
+  @media (max-width: 800px) {
+    .Checkoutgymrat  .shopping-cart {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    .Checkoutgymrat .item {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .Checkoutgymrat .image img {
+      width: 50%;
+    }
+    .Checkoutgymrat .image,
+    .quantity,
+    .description {
+      width: 100%;
+      text-align: center;
+      margin: 6px 0;
+    }
+    .Checkoutgymrat .buttons {
+      margin-right: 20px;
+    }
+  }
+
+  

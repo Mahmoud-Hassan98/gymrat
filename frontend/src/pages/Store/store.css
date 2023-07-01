@@ -1,0 +1,235 @@
+/* * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+  }
+  body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+
+.store_sections #portfolio{
+    padding: 30px 7%;
+    position: relative;
+  }
+
+.store_sections #portfolio::after{
+
+content: '';
+width: 30%;
+height: 1px;
+background-color: lightslategray;
+position: absolute;
+bottom: 0;
+left: 35%;
+
+}
+.store_sections #portfolio p{
+
+font-weight: 400;
+color: #fff;
+font-size: 17px;
+letter-spacing: 0.6px;
+text-align: center;
+margin-top: 15px;
+}
+.store_sections #portfolio .protfolio-grid
+{
+display: grid;
+grid-template-columns: repeat(3,1f);
+grid-gap: 2.4rem;
+margin-top: 70px; 
+grid-template-columns: 2fr 2fr 2fr;
+}
+.store_sections #portfolio .protfolio-grid .portfolio-item{
+width:100% ;
+position: relative;
+border-radius: 15px;
+}
+.store_sections #portfolio .protfolio-grid .portfolio-item .port-img-box img {
+width:300%;
+height: 300px;
+border-radius: 15px;
+}
+.store_sections #portfolio .protfolio-grid .portfolio-item .port-img-info  {
+width: 100%;
+height: 100%;
+background-color:#FFDD00;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 0;
+left: 0;
+gap: 20px;
+opacity: 0;
+transition: 0.4s;
+transform: scale(0);
+}
+.store_sections #portfolio .protfolio-grid .portfolio-item:hover .port-img-info  {
+opacity: 1;
+transform:scale(1);
+}
+.store_sections #portfolio .protfolio-grid .portfolio-item .port-img-info h2{
+
+font-size: 30px;
+font-weight: bold;
+color: rgb(0, 0, 0);
+}
+.store_sections #portfolio .protfolio-grid .portfolio-item .port-img-info a{
+background-color: #1d1d1d;
+color: white;
+font-size: 20px;
+padding: 14px 15px;
+border-radius: 50%;
+}
+  /* section one end  */
+    /* section 2 and 3 start  */
+    /* .store_sections .sub-title{
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.537);
+    text-transform: uppercase;
+  
+  }
+  .store_sections .sub-title span{
+  color: #FFDD00;
+  }
+
+  .store_sections .card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-content: center; 
+  height: 70vh;
+}
+
+.store_sections .card {
+  width: 250px;
+  height: 400px;
+  background-color: #222222;
+  text-align: start;
+  border: none;
+}
+
+.store_sections.card .img1 {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.store_sections.clothing-name {
+  font-size: 18px;
+  margin-top: 20px;
+  color: white;
+}
+
+.store_sections .clothing-price {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+.store_sections .button{
+  display: flex;
+  justify-content: center;
+}
+.store_sections .card .reviews{
+  color: white;
+}
+/* section 2 and 3 end */
+
+      /* line for text start  */
+      /* .store_sections  .text-with-line {
+    position: relative;
+    text-align: center;
+  }
+  
+  .store_sections .text-with-line::before,
+  .store_sections .text-with-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #FFDD00;
+  }
+  
+  .store_sections  .text-with-line::before {
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .store_sections .text-with-line::after {
+    right: 0;
+    transform: translateY(-50%);
+  }
+  .store_sections .NEW-PRODUCTS p {
+    color: #e3e3e3;
+    font-size: 25px;
+  }
+  */
+
+
+
+
+
+  /* section one end  */
+    /* section 2 and 3 start  */
+/* .sub-title{
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.537);
+    text-transform: uppercase;
+  
+  }
+  .sub-title span{
+  color: #FFDD00;
+  }
+
+  .card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-content: center; 
+  height: 70vh;
+}
+
+.card {
+  width: 250px;
+  height: 400px;
+  background-color: #222222;
+  text-align: start;
+  border: none;
+}
+
+.card .img1 {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.clothing-name {
+  font-size: 18px;
+  margin-top: 20px;
+  color: white;
+}
+
+.clothing-price {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}  */

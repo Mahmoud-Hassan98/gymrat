@@ -1,0 +1,286 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+  }
+   body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+.signupgymrat {
+  background-image: url("/image/sign-up-in-img/362.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+
+  .signupgymrat body 
+  {
+      font-family:sans-serif; 
+  
+  }
+  
+  .signupgymrat .forms-container .tilte2 {
+    color: #B5BAC1;
+    font-weight: normal;
+    
+  }
+  .signupgymrat .forms-container .tilte3 {
+    color:  #FFDD00;;
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
+  .signupgymrat .mainContainer span {
+    color: #FFDD00;;
+}
+  
+                       /* header logo start  */
+                       .signupgymrat  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    position: relative;
+    z-index: 1
+  }
+  
+  .signupgymrat .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    margin-top: 100px;
+  }
+  
+  .signupgymrat .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+                    /* header logo end  */
+
+  /* Center the forms container */
+  .signupgymrat .forms-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signupgymrat .form-spacing {
+    width: 20px;
+  }
+  
+    /* Center the forms container */  
+    
+    .signupgymrat  h1{
+        text-align: center;
+    }
+    
+    
+    .signupgymrat form{
+        width:35rem;
+        margin: auto;
+        color:#B5BAC1;
+        position: relative;
+        z-index: 1;
+        font-weight: 300;
+        /* backdrop-filter: blur(1px) saturate(180%);
+        -webkit-backdrop-filter: blur(1px) saturate(180%); */
+        background-color: rgba(49, 51, 56, 0.6);
+        
+        border-radius: 5px;
+
+        padding: 20px 25px;
+    }
+    .signupgymrat  .tilte1{
+        color: rgb(199, 199, 199);
+         font-weight:bold;
+         font-size: 22px;
+    }
+    
+    .signupgymrat  input[type=text], input[type=password]{
+        width: 100%;
+        margin: 10px 0;
+        border-radius: 3px;
+        background-color: #1e1f22;
+        padding: 15px 18px;
+        color: white;
+        border: none;
+      }
+      .signupgymrat    select{
+        width: 30%;
+        margin: 10px 0;
+        border-radius: 3px;
+        background-color: #1e1f22;
+        padding: 15px 18px;
+        color: rgb(156, 154, 154);
+        border: none;
+      }
+    
+      .signupgymrat  button {
+        background-color: #FFDD00;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        padding: 14px 20px;
+        border-radius: 5px;
+        margin: 7px 0;
+        width: 100%;
+        font-size: 18px;
+        border: none;
+
+      }
+    
+      .signupgymrat button:hover {
+        background-color: #ecf314;
+        cursor: pointer;
+        
+    }
+    
+    .signupgymrat .headingsContainer{
+        text-align: center;
+    }
+    
+    .signupgymrat  .headingsContainer p{
+        color: gray;
+    }
+    .signupgymrat  .mainContainer{
+        padding: 16px;
+    }
+    
+    
+    .signupgymrat .subcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signupgymrat .subcontainer a {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.signupgymrat span.forgotpsd a {
+  color: whitesmoke;
+  padding-top: 16px;
+}
+input::placeholder {
+    color: #5e5e5e;
+    font-weight: normal;
+  }
+
+  .signupgymrat .forgotpsd a {
+  color: #FFDD00;
+  font-weight: normal;
+  text-decoration: none;
+  margin-right: auto;
+}
+    
+.signupgymrat  .register{
+        color: #949BA4;
+        font-weight: normal;
+        text-align: center;
+      }
+      
+      .signupgymrat  .register a{
+        color: #FFDD00;
+      }
+      
+      .signupgymrat  .register a:link{
+        text-decoration: none;
+      }
+    
+      /* Media queries for the responsiveness of the page */
+      @media screen and (max-width: 600px) {
+        form{
+          width: 25rem;
+        }
+      }
+
+             /* footer  */
+
+             .signupgymrat   footer {
+                height: 250px;
+                background-color: rgba(0, 0, 0, 0.3);
+                color: #fff;
+                position: relative;
+                z-index: 1
+              }
+              
+              .signupgymrat  .top-images, .bottom-images {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 50%;
+                padding: 10px;
+              }
+              
+              .signupgymrat  .top-images img, .bottom-images img {
+                max-height: 100%;
+                width: auto;
+              }
+              
+              .signupgymrat  .bottom-images {
+               
+                display: grid;
+               justify-items: center;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+                justify-content: center;
+              }
+        
+              
+
+
+
+
+
+
+
+
+
+      
+      /* media  for form if im need it  */
+/*   
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .signup-form {
+    margin-bottom: 20px; 
+  }
+  
+ 
+  .login-form {
+    margin-top: 20px; 
+  }
+  
+
+  @media only screen and (min-width: 768px) {
+    .form-container {
+      flex-direction: row;
+    }
+    .signup-form {
+      margin-right: 20px; 
+    }
+    .login-form {
+      margin-left: 20px; 
+    }
+  } */
+      /* media  for form if im need it  */
+
+
