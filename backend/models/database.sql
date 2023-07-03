@@ -5,6 +5,7 @@ CREATE TABLE users (
   user_email VARCHAR(255) NOT NULL,
   user_password VARCHAR(255) NOT NULL,
   role VARCHAR(255),
+  deleted BOOLEAN DEFAULT false,
   images BYTEA []
 );
 CREATE TABLE product (
@@ -46,3 +47,10 @@ CREATE TABLE payment_product (
   FOREIGN KEY (payment_id) REFERENCES payment(payment_id),
   FOREIGN KEY (product_id) REFERENCES product(id)
 );
+
+
+
+DROP TABLE payment_product  ;
+DROP TABLE payment  ;
+DROP TABLE coach ; 
+DROP TABLE users;  
