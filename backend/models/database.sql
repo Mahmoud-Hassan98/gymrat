@@ -17,7 +17,7 @@ CREATE TABLE product (
   images BYTEA[],
   product_Type TEXT,
   gender TEXT
-
+  deleted BOOLEAN DEFAULT false
 );
 
 CREATE TABLE coach (
@@ -39,13 +39,15 @@ CREATE TABLE payment (
   coach_id INTEGER,
   payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (coach_id) REFERENCES coach(id),
-  FOREIGN KEY (user_id) REFERENCES users(user_id)
+  FOREIGN KEY (user_id) REFERENCES users(user_id),
+  deleted BOOLEAN DEFAULT false
 );
 CREATE TABLE payment_product (
   payment_id SERIAL,
   product_id INTEGER,
   FOREIGN KEY (payment_id) REFERENCES payment(payment_id),
-  FOREIGN KEY (product_id) REFERENCES product(id)
+  FOREIGN KEY (product_id) REFERENCES product(id),
+   deleted BOOLEAN DEFAULT false
 );
 
 

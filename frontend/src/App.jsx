@@ -9,6 +9,7 @@ import Homepage from "./pages/Homepage/Homepage";
 import Store from "./pages/Store/Store";
 import Signup from "./pages/Signup/Signup";
 import Checkout from "./pages/Checkout/Checkout";
+import Shopingcart from "./pages/Shopingcart";
 import { useEffect } from "react";
 import Coach from "./pages/Coach/Coach";
 import Personal from "./pages/Personal/Personal";
@@ -38,6 +39,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/Store" element={<Store />} />
+          <Route path="Shopingcart" element={<Shopingcart />} />
     
           <Route path="/About" element={<About />} />
           <Route path="/Signup" element={<Signup />} />
